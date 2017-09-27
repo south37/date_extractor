@@ -116,7 +116,7 @@ module DateExtractor
     # @param [Integer | NilClass] fallback_month
     # @param [Integer | NilClass] fallback_year
     # @param [Boolean] debug
-    # @return [[String], [[Date, DateTime | NilClass, DateTime | NilClass]] matched strings and dates
+    # @return [[[String], [[Date, DateTime | NilClass, DateTime | NilClass]]] matched strings and dates
     def extract(body, fallback_month: nil, fallback_year: nil, debug: false)
       today = Date.today
       fallback_month ||= Date.today.month
