@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Extract dates from a text.}
   spec.description   = %q{Extract dates from a text.}
-  spec.homepage      = "https://github.com/south37"
+  spec.homepage      = "https://github.com/south37/date_extractor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
